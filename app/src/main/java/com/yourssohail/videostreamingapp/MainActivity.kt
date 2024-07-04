@@ -56,7 +56,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
 @Composable
 fun VideoPlaylist() {
     var isVideoPlaying by remember { mutableStateOf(false) }
